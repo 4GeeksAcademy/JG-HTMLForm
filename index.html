@@ -55,7 +55,7 @@
                 <label for="state" class="form-label my-1"><h5>State</h5></label>
                 <select id="state" class="form-select">
                     <option>Pick a state</option>
-                    <option>Canaima</option>
+                    <option>Pellare</option>
                     <option>Merida</option>
                     <option>Caracas</option>
                     <option>Los Roques</option>    
@@ -68,12 +68,27 @@
             </div>
             <div class="row">
               <div class="col-6 pt-2">
-                <label for="payment" class="form-label"><h5>We accept</h5></label>
-                <div class="bg-light col-4">
-                    <input type="radio" name="paymentMethod" id="a1" class="m-2"><i class="fa-regular fa-credit-card"></i>
-                    <input type="radio" name="paymentMethod" id="a2" class="m-2"><i class="fa-solid fa-credit-card"></i>
-                    <input type="radio" name="paymentMethod" id="a3" class="m-2"><i class="fa-brands fa-cc-paypal"></i>
-                    <input type="radio" name="paymentMethod" id="a4" class="m-2"><i class="fa-brands fa-bitcoin"></i>
+                <h5>We accept</h5></label>
+                <div class="bg-light col-6">
+                  <label for="debitCard" class="form-label">
+                    <input type="radio" name="paymentMethod" id="debitCard" class="m-2">
+                    <i class="fa-regular fa-credit-card"></i> 
+                </label>
+                
+                <label for="creditCard" class="form-label">
+                    <input type="radio" name="paymentMethod" id="creditCard" class="m-2">
+                    <i class="fa-solid fa-credit-card"></i> 
+                </label>
+                
+                <label for="paypal" class="form-label">
+                    <input type="radio" name="paymentMethod" id="paypal" class="m-2">
+                    <i class="fa-brands fa-cc-paypal"></i>
+                </label>
+                
+                <label for="bitcoin" class="form-label">
+                    <input type="radio" name="paymentMethod" id="bitcoin" class="m-2">
+                    <i class="fa-brands fa-bitcoin"></i>
+                </label>
                 </div>  
               </div>
               <div class="col-6 pt-2">
